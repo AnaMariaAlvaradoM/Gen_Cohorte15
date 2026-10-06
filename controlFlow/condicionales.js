@@ -1,0 +1,42 @@
+//! sintaxis básica 
+//* if (condición){
+//*    el bloque de codig a ejecutr, si la condicón es true
+//* }
+
+const saldo = 50000;
+const monto = 80000;
+
+//& If simple
+if (monto > saldo){
+    console.log("Ey! el monto supera el saldo");
+}
+
+//& If / else
+if (monto <= saldo){
+    console.log("Transferencia aceptada");
+} else {
+    console.log("Saldo insuficiente");
+}
+
+//& if - else if - else
+const saldoAhorros = 250000;
+
+if(saldoAhorros >= 200000){
+    console.log("Cliente vip");
+} else if (saldoAhorros >= 100000 ){
+    console.log("Buen ahorro");
+} else {
+    console.log("Jum le toca ahorrar");
+}
+
+let numero = 2;
+if(numero % 2 === 0){
+    console.log("El numero es par");
+}else{
+    console.log("El numero es impar");
+}
+
+
+
+
+
